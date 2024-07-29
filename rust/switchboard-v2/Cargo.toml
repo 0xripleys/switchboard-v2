@@ -21,10 +21,10 @@ no-entrypoint = []
 cpi = ["no-entrypoint"]
 
 [dependencies]
-rust_decimal = "=1.26.1"
+rust_decimal = ">=1.26.1"
 bytemuck = "1.13.1"
 superslice = "1"
 anchor-lang = "0.28.0"
 anchor-spl = "0.28.0"
 # solana-program = "=1.14.18"
-solana-program = ">= 1.16, < 1.17"
+solana-program = ">= 1.16"
